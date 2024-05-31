@@ -1,0 +1,7 @@
+export enum ModalEnum {
+  SERVICE_EDIT = "SERVICE_EDIT",
+  SERVICE_ADD = "SERVICE_ADD",
+  SERVICE_DELETE = "SERVICE_DELETE",
+
+
+}

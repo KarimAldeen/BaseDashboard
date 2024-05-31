@@ -1,0 +1,18 @@
+.FillterSection{
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-direction: row-reverse;
+    .SelectField{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .SelectField{
+     display: none;
+    }
+ }

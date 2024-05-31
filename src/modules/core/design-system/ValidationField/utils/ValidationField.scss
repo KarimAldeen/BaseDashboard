@@ -1,0 +1,162 @@
+.LabelWithIcon {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.ValidationField {
+  margin-bottom: 1.3vw;
+  position: relative;
+  > * {
+    width: 100%;
+  }
+  .text,
+  .ant-form-item {
+    margin-bottom: 7px !important;
+    > span {
+      color: transparent;
+    }
+  }
+
+  .ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+    border: 1px solid var(--border-color);
+  }
+
+  .Select_error {
+    .ant-select-selector {
+      border: 1px solid red !important;
+    }
+  }
+
+  // .ValidationField{
+  //   .ant-select-selector{
+  //     border: 1px solid var(--border-color) ;
+
+  //     }
+  // }
+  > span {
+    margin-bottom: 0px !important;
+    &:focus-within {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 1px var(--primary);
+      cursor: pointer;
+    }
+    &:has(.is-invalid) {
+      border-color: red !important ;
+    }
+    input {
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+      -webkit-box-shadow: 0 0 0 30px white inset !important;
+    }
+  }
+}
+
+.ant-upload-select {
+  width: 100%;
+}
+.Checkboxs {
+  padding: 4%;
+}
+.SearchField {
+  button {
+    background: var(--primary);
+  }
+}
+.text {
+  color: var(--text);
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input:disabled {
+  color: var(--text) !important;
+}
+
+.isError {
+  outline: red 1px solid;
+  color: red;
+}
+.Error_color {
+  color: red;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important; /* Change the color to your desired background color */
+}
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important; /* Change the color to your desired background color */
+}
+
+/* Remove autofill background color on hover */
+input:-webkit-autofill:hover {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important; /* Change the color to your desired background color */
+}
+.upload_image_button {
+  .ant-btn {
+    height: 3vw !important;
+    border: 0.1vw solid var(--border-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+  height: 3vw !important;
+}
+
+.ant-upload-list .ant-upload-list-item {
+  // height:3vw !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.TowValidationItems {
+  display: flex;
+  gap: 3%;
+  > label {
+    display: none;
+  }
+}
+
+.ant-select .ant-select-arrow {
+  inset-inline-end: 1vw;
+}
+.ant-input-affix-wrapper-lg {
+  padding: 0.5vw 1vw;
+  font-size: 1vw;
+  height: 3vw;
+  border-radius: 0.6vw;
+}
+
+.ant-picker-outlined {
+  padding: 0.5vw 1vw;
+  font-size: 1vw;
+  height: 3vw;
+  border-radius: 0.6vw;
+  border: 1px solid var(--border-color);
+}
+
+.ant-select-single.ant-select-lg .ant-select-selector {
+  height: 3vw;
+  border-radius: 0.6vw;
+}
+.ant-select-single .ant-select-selector .ant-select-selection-search-input {
+  height: 3vw;
+}
+
+.ant-select-outlined .ant-select-selector {
+  height: 3vw !important;
+  border-radius: 0.6vw !important;
+}
+.ant-select-single.ant-select-lg {
+  height: 3vw;
+}
+
+.ant-upload-wrapper .ant-upload-list .ant-upload-list-item {
+  width: 21.5vw;
+}

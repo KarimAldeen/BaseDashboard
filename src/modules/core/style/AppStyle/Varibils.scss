@@ -1,0 +1,25 @@
+:root {
+    --primary:#55338A ;
+    --secondary : #ffca00;
+    --text: #565656;
+    --bg: #ffffff;
+    --bg2:  #f8f8f8;
+    --shadow: rgba(0, 0, 0, 0.15);
+    --gray : rgb(207, 210, 214);
+    --linear : linear-gradient(118deg, #2D9CDB, #2D9CDB)
+}
+
+:root:has(.dark) {
+    --primary:#55338A ;
+    --secondary : #ffca00;
+    --text: #ffffff;        
+    --bg: #1f1f1f;          
+    --bg2: #2c2c2c;         
+    --shadow: rgba(255, 255, 255, 0.15); 
+    --gray: #a0aec0;  
+    --linear : linear-gradient(118deg, #fcb04f, #f78c3f)
+
+
+}
+
+

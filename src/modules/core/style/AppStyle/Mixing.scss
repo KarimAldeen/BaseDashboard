@@ -1,0 +1,27 @@
+
+@mixin Shadow {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+
+}
+
+
+@mixin Flex {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+
+
+
+@mixin GlassModeCover{
+  background-color: rgba(16 18 27 / 40%);
+  backdrop-filter: blur(24px);
+}
+.single-line-div {
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

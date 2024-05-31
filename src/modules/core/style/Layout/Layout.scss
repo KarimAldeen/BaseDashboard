@@ -1,0 +1,525 @@
+
+/////  Layout
+.DashboardLayout {
+    color: var(--text); background: var(--bg2);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex; justify-content: center; align-items: center;
+    .DashboardLayout_Cover{
+        min-height: 100vh;
+        width: 100vw;
+        border-radius: 20px;
+      
+      }
+      
+      .DashboardLayout_Body{
+          position: absolute;
+          left: 290px;
+          width: calc(98% - 290px);
+          
+      }   
+      .DashboardLayout_Body_Open{
+          left: 140px;
+          width: calc(98% - 140px);
+          transition: 1s ease-in-out;
+      
+      
+      }
+  
+    
+}
+///// Arabic Mood
+.ar{
+    .DashboardLayout_Body{
+        right: 290px;
+        
+    }   
+    .DashboardLayout_Body_Open{
+        right: 140px;
+        width: calc(96% - 140px);
+        transition: 1s ease-in-out;
+    
+    
+    }
+}
+
+
+
+.card {
+background: var(--bg);
+ @include Shadow;
+ outline: none !important;
+ border: none !important;
+}
+.Model_Button{
+    background: var(--primary);
+    outline: none;
+    border: none;
+}
+.SweetAlert{
+    .btn-primary{
+        background: var(--primary);
+        outline: none;
+        border: none;
+        box-shadow: none !important;
+    }
+}
+.TableActions{
+    svg{
+        fill: var(--primary);
+    }
+}
+.form-control:focus{
+    box-shadow:  0 0 0 0.2rem rgba(0, 0, 0, 0.2) !important;
+    border: var(--primary);
+}
+.Page_Header{
+    display: flex;  justify-content: space-between;
+    margin-bottom: 20px;
+    // align-items: center ;
+
+    h1{
+        font-size: 30px;
+        font-weight: 600;
+        
+    }
+}
+.PrimaryColor{
+    margin-inline: 10px;
+}
+
+.react-toggle-track{
+    background: red ;
+}
+
+///// spinner 
+.jwoUqQ{
+    color: var(--primary) !important;
+}
+.Auth{
+    background-color: var(--bg2);
+    margin: auto;
+    width:100%;
+    display: flex; justify-content: center; align-items: center;
+    height: 100vh;
+}
+.Translate,.Theme{
+    img{
+        margin-inline: 6px;
+    }
+}
+.szh-menu{
+    background-color: var(--bg);
+}
+
+.modal-content{
+    background-color: var(--bg) !important;
+}
+.btn-primary{
+    background: var(--primary);
+    border-color: var(--primary) !important;
+    &:hover{
+        background: var(--primary);
+
+    }
+}
+.ModalHeader{
+    color: var(--text);
+}
+ .css-b62m3t-container .react-select__control{
+    background-color:var(--bg);
+   }
+   
+   .react-select__control--is-disabled{
+    background-color:var(--bg) !important;
+   }
+
+  
+
+ 
+        
+         .ViewPage{
+            .card-header{
+                padding: 25px 25px 0 25px;
+                background: var(--bg) !important;
+                color: var(--text);
+                border-bottom: none !important;
+                display: flex; justify-content: space-between;
+                .card-title{
+                    font-size: 2vw;
+                }
+                    button{
+                        background: var(--primary) ;
+                        color: var(--bg);
+                        font-weight: bold;
+                        outline: none;
+                        border: none;
+                        min-width: 100px;
+                        max-height: 40px;
+                    }
+            }
+            .react-tabs__tab-list{
+                z-index: 1;
+                display: flex;            
+            }
+            .react-tabs__tab{           
+         
+                flex: 1;
+                color: var(--text);
+
+            }
+            .react-tabs__tab--selected {
+                border-top: none; border-left: none; border-right: none;
+                border-bottom: 4px solid var(--primary);
+                color: var(--primary);
+                background: var(--bg2);
+    
+            }
+           
+        }
+     
+    
+        .react-tabs__tab:focus{
+            // background-color: red !important;
+
+            all: unset;
+              border-top: none; border-left: none; border-right: none;
+                border-bottom: 4px solid var(--primary);
+                color: var(--primary);
+                z-index: 99999;
+                background: var(--bg2);
+                  min-width: 100px;
+
+                flex: 1;
+                color: var(--text);
+                    max-height: 40px;
+
+        }
+
+
+        .ant-input-group-wrapper .ant-input-wrapper .ant-input-affix-wrapper{
+ background-color:var(--bg) !important;
+ color: var(--text) !important;
+}
+
+/* Input */
+.ant-input-wrapper .ant-input-affix-wrapper input[type=text]{
+ background-color:var(--bg) !important;
+  color: var(--text) !important;
+  &::placeholder{
+     color: var(--text) !important;
+  }
+}
+
+/* Warning */
+#root div .warning{
+ color:var(--secondary);
+}
+
+/* Content Division */
+#root .title-section p{
+ color:var(--secondary);
+}
+
+
+
+
+
+/* Iwjdpv */
+#root .card .sc-iwjdpV{
+ background-color:var(--bg2) !important;
+ color:var(--text) !important;
+}
+
+.Card{
+    padding: 30px;
+    @include Shadow;
+    background: var(--bg);
+    border-radius: 20px;
+}
+.SingleInfo{
+    
+    svg{
+        color: green !important;
+    }
+}
+.ResposiveTabs{
+    padding-block: 20px;
+    min-height: 500px;
+}
+/* Ant tabs tab active */
+.ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab-active{
+    display:inline-block;
+    transform:translatex(0px) translatey(0px) !important;
+   }
+   
+   /* Ant tabs content holder */
+   .VarianInfo .ant-tabs-left .ant-tabs-content-holder{
+    transform:translatex(0px) translatey(0px);
+
+   }
+   .ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab{
+align-self: center !important;
+padding: 10px 40px;
+
+   }
+
+   .VarianInfo{
+    padding: 10px 20px;
+   }
+   
+   
+   .react-tabs__tab-panel--selected .mt-4 .VarianInfo .ant-tabs-editable .ant-tabs-content-holder .ant-tabs-content .ant-tabs-tabpane .row .col .ant-upload-wrapper .ant-upload-select .ant-upload .ant-btn{
+    width:100% !important;
+   }
+   .tabstext{
+    margin-bottom: 10px;
+   }
+   
+   .SellectTab{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+    .warning {
+        color: var(--primary) !important;
+        margin-bottom: 10px;
+        height: 4vw;
+        width: 4vw;
+    }
+    .css-1u0lry5-MuiChartsLegend-root {
+        direction: ltr;
+    }
+
+
+    ////// Tabs
+    .ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab{
+        display:flex;
+        color:var(--subtext) !important;
+       }
+       
+       /* Ant tabs tab */
+       .ant-tabs-nav-list .ant-tabs-tab .ant-tabs-tab-btn{
+        color:var(--text) !important;
+       }
+       
+       /* Ant tabs tab remove */
+       .ant-tabs-nav-list .ant-tabs-tab .ant-tabs-tab-remove{
+        color:var(--subtext) !important;
+       }
+       /* Ant tabs nav add */
+.ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-nav-add{
+    padding-top:5px;
+    padding-bottom:5px;
+    color:var(--primary) !important;
+
+   }
+   
+   .ant-tabs-nav-wrap .ant-tabs-nav-list .ant-tabs-tab-active{
+
+.ant-tabs-tab-btn{
+    color:var(--text) !important; 
+    font-weight: bold;
+    background: var(--bg);
+
+}
+.ant-tabs-tab-remove{
+    color:var(--text) !important;
+   }
+   }
+
+
+   .BarChart{
+    width: 100%;
+    height: 30vw
+    ;
+   }
+
+   @media (max-width: 800px) {
+    .BarChart{
+        width: 100%;
+        height: 50vw
+        ;
+       }
+       /* Text */
+.MuiChartsLegend-root .MuiChartsLegend-series text{
+    font-size:2vw !important;
+   }
+   .MuiChartsLegend-root .MuiChartsLegend-series .MuiChartsLegend-mark{
+    width:2vw;
+    height:2vw;
+   }
+   #root .DashboardLayout .DashboardLayout_Cover #DashboardLayout_Body .Layout_Children .row-cols-1 .BarChart .css-l0h214-MuiResponsiveChart-container .css-bd9tpx-MuiChartsSurface-root .MuiChartsLegend-root .MuiChartsLegend-series text{
+    transform: translatey(-2px) !important;
+   }
+   
+   
+  }
+  @media (max-width: 600px) {
+    .BarChart{
+       display:none;
+       }
+
+   
+   
+  }
+
+  /* Ant input affix wrapper */
+.ant-input-group-wrapper .ant-input-wrapper .ant-input-affix-wrapper{
+    height:40px;
+   }
+   
+   /* Ant input search button */
+   .ant-input-wrapper .ant-input-group-addon .ant-input-search-button{
+    height:40px;
+   }
+   
+
+
+
+ 
+   
+   
+   @media screen and (max-width: 600px) {
+   .SearchField,.SelectWSearchField{
+    display: none;
+   }
+}
+
+
+.AddNewTabText{
+    text-wrap: nowrap !important;
+    margin-left: 60px;
+    transform: translateY(-30px);
+}
+  @media screen and (max-width: 1000px) {
+
+.AddNewTabText{
+    transform: translateY(-50px);
+
+
+   }
+}
+
+/* Dynamic form complex */
+#dynamic_form_complex{
+    margin-bottom:5px;
+   }
+   
+   /* Ant space gap col small */
+   #dynamic_form_complex .ant-space-gap-col-small{
+    margin-bottom:-9px !important;
+    transform:translatex(0px) translatey(0px);
+   }
+   
+   /* Ant space item */
+   #dynamic_form_complex .ant-space-gap-col-small .ant-space-item{
+    margin-bottom:6px;
+   }
+   
+   /* Span Tag */
+   #dynamic_form_complex .ant-space-item span{
+    transform: translatex(-13px) translatey(-12px);
+   }
+   
+   #dynamic_form_complex .ant-space-gap-col-small {
+    width: 100%;
+   }   
+   .Information{
+    margin-block: 20px;
+   }
+   .ant-form{
+    overflow-x: hidden;
+   }
+//    .ant-tabs{
+//     min-height: 200px;
+//    }
+.gomecards{
+    min-height: 220px;
+}
+
+.ValidationFiledCusom{
+    display: flex;
+    flex-direction: column;
+    >*{
+        width: 100%;
+        
+    }
+}
+
+
+// .withfillter{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-end;
+//     gap: 10px;
+//     >div{
+//         display: flex;
+//         gap: 30px;
+//     }
+// }
+.SelectWSearchField{
+    width: 200px;
+}
+.ant-drawer .ant-drawer-body{
+    padding: 0;
+}
+.RightSide{
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.orderStatus{
+    display: flex;
+    gap: 5px;
+    padding-inline: 10px;
+    text-wrap: nowrap;
+    white-space: nowrap;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    svg{
+        color: var(--primary);
+    }
+
+}
+.orderStatus_select{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    svg{
+        color: var(--primary);
+    }
+
+}
+.CustomDateRange{
+    width: 300px;
+}
+.OrderDetails{
+    padding: 20px 4vw ;
+}
+.CustomNumber{
+    display: flex;
+    gap: 20px;
+}
+.SliderDataRange{
+    display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // background: var(--bg);
+    // gap: 20px;
+    // width: 300px;
+    padding-inline: 20px;
+    h1{
+        font-size: 18px;
+        text-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+}
+.custoumSelectField{
+    width: 150px !important;
+}
